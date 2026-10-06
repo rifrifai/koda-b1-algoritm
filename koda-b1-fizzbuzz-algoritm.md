@@ -5,12 +5,12 @@
 ```mermaid
     flowchart TD
     start((start))
-    init["i <-- 1"]
+    init["i <- 1"]
     check{"i <= 10"}
     check2{"i % 2 == 0"}
     increment["i++"]
-    output["/FizzBuz/"]
-    output2["/i/"]
+    output[/"FizzBuz"/]
+    output2[/"i"/]
     finish((("finish")))
 
     start --> init
